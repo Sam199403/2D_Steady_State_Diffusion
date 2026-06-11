@@ -1,14 +1,15 @@
 # Solver for 2D Laplace Equation 
 This tool numerically solves the 2D Laplace Equation given by 
-$$
-\frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} = 0 
-$$ 
+```math
+\frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} = 0
+```
+
 where x and y are spatial co-ordinates and T is the temperature field. 
 
 The discretized form of the equation is given by 
-$$
+```math
 T_{i,j} = \frac{1}{4} \left(T_{i+1,j} + T_{i-1,j} + T_{i,j+1} + T_{i,j-1} \right)
-$$
+```
 subjected to constant Dirchlet-type boundary conditions at the top, bottom, left and right walls. A schematic diagram of the domain setup is given below. 
 <p align="center">
   <img src="image_2d_updated.png" alt="Description" width="450">
