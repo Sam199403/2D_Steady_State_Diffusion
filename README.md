@@ -1,9 +1,9 @@
 # Solve 2D Laplace Equation 
 This tool numerically solves the 2D Laplace Equation given by 
 ```math
+
 \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} = 0
 ```
-
 where x and y are spatial co-ordinates and T is the temperature field. 
 
 The discretized form of the equation is given by 
