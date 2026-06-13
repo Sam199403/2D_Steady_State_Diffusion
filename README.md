@@ -35,3 +35,11 @@ subjected to constant Dirchlet-type boundary conditions at the top, bottom, left
 Python libraries: 
 * matplotlib
 * numpy 
+
+
+## Sample Output 
+The following figure displays the steady-state heat-map for a plate whose top-wall boundary is maintained at a constant temperature of 1 and the other walls are maintained at 0.25 (normalized temperature units). The spatial domain is divided into 35 uniform divisions. 
+<p align="center">
+  <img src="sample_output.png" alt="Description" width="450">
+</p>
+
