@@ -135,7 +135,7 @@ std::cout<<"Enter the right wall temperature value: "<<std::endl;
 std::cin>>right_wall_val;
  
 // Define error tolerance and maximum allowable iterations 
-double err_tol = std::pow(10,-6);
+double err_tol = std::pow(10,-3);
 int max_iter = 100000;
 // Define and initialize a 2D array of size num_div X num_div . By default it initializes all elements with value 0
 std::vector<std::vector<double>> T_sol(num_div,
